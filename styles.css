@@ -9,7 +9,8 @@
 
 .menu-bar,
 .menu,
-.logo{
+.logo,
+.banner{
     display: flex;
 }
 
@@ -32,6 +33,7 @@
 .school{
     font-size: 32px;
     font-weight: 700;
+    color: rgb(17, 17, 17);
 }
 .menu{
     list-style: none;
@@ -71,13 +73,46 @@
 }
 
 
-
-
-
-
-
-
-
+.banner{
+    align-items: center;
+    margin-left: 8.8rem;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+    margin-right: 8.8rem;
+    gap: 50px;
+}
+.banner-info{
+    gap: 24px;
+}
+.banner-head{
+    font-size: 56px;
+    font-weight: 700;
+    color: rgb(17, 17, 17);
+}
+.banner-head-01{
+    color: rgb(254, 163, 1);
+}
+.banner-head-02{
+    color: rgb(1, 172, 253);
+}
+.banner-p{
+    color: rgb(17, 17, 17);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 400;
+}
+.secondary-btn{
+    border: 5px;
+    border-radius: 12px ;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600px;
+    color: white;
+    text-align: center;
+    background: rgb(17, 17, 17);
+    width: 197px;
+    height: 50px;
+}
 
 
 
@@ -94,5 +129,23 @@
     .logo img{
         height: 2.875rem;
         width: 2.875rem;
+    }
+    .banner{
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 1rem;
+    }
+    .banner-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    .banner-head{
+        text-align: center;
+        margin: 0;
+    }
+    .banner-p{
+        text-align: center;
     }
 }
