@@ -376,6 +376,7 @@
 }
 /* Footer Styles */
 .foot-div{
+    flex-direction: row;
     height: 32rem;
     display: grid;
     padding-left: 8.8rem;
@@ -518,5 +519,22 @@
     .story-btn{
         width: 12rem;
         margin-left: 1rem;
+    }
+    .foot-div{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding: 2rem;
+        padding-bottom: 5rem;
+        justify-content: center;
+    }
+    .foot-all{
+        padding: 1rem;
+    }
+    .about-school{
+        margin: 1rem;
+    }
+    .keep-in-touch{
+        margin: 1rem;
     }
 }
