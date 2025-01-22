@@ -261,7 +261,7 @@
     margin-bottom: 5rem;
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(4, space-between);
+    grid-template-columns: repeat(4, 4fr);
     grid-template-rows: repeat(2,1fr);
     gap: 2rem;
     grid-template-areas: 
@@ -494,10 +494,11 @@
         flex-direction: column;
     }
     .stories{
-        padding: 1rem;
+        padding: 0rem;
     }
     .story-main{
-        gap: 10px;
+        display: grid;
+        grid-template-columns: (2,2fr);
         padding-right: 1.625rem;
     }
     .story-2{
